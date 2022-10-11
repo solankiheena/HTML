@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .container
+    {
+        background-color: rgb(243, 255, 240);
+        padding: 20px;
+        margin: 10px;
+        border: 2px solid green;
+        display: flex;
+    }
+    .right
+    {
+        justify-content: end;
+    }
+    .center
+    {
+        justify-content: center;
+    }
+    .between
+    {
+        justify-content: space-between;
+    }
+    .around
+    {
+        justify-content: space-around;
+    }
+    .even
+    {
+        justify-content: space-evenly;
+    }
+    .container>div
+    {
+        height: 100px;
+        width: 100;
+        font-size: 3rem;
+        margin: 10px;
+        background-color: rgb(255, 123, 0);
+        text-align: center;
+        color: black;
+    }
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+    </div>
+    <div class="container right">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+    </div>
+    <div class="container center">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+    </div>
+    <div class="container between">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+      
+    </div>
+    <div class="container around">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+       
+    </div>
+    <div class="container even">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+       
+    </div>
+</body>
+
+</html>
